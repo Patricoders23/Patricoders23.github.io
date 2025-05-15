@@ -1,0 +1,74 @@
+
+/* main.css - Estilos para el portfolio profesional */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #0b132b;
+  color: white;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+section {
+  padding: 2rem 1rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  color: #0b132b;
+  border-bottom: 2px solid #00aaff;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.skills-list, .projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.skill-item, .project-item {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  flex: 1 1 calc(45% - 1rem);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.contact-icons a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #0b132b;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #0b132b;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .skill-item, .project-item {
+    flex: 1 1 100%;
+  }
+}
