@@ -4,9 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <meta name="author" content="Patricia García" />
-  <meta name="description" content="Patricia García – Petroleum Engineer & Data Analyst specializing in Energy Analytics, AI Agents and Cloud Engineering" />
-  <title>Patricia García | Energy Data Analyst</title>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <meta name="description" content="Patricia García – Petroleum Engineer & Data Scientist specializing in Energy Analytics, AI Agents and Cloud Engineering" />
+  <title>Patricia García | Energy Data Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
     :root {
       --bg: #060c14;
@@ -26,7 +26,7 @@
     html { scroll-behavior: smooth; }
 
     body {
-      font-family: 'Syne', sans-serif;
+      font-family: 'Plus Jakarta Sans', sans-serif;
       background: var(--bg);
       color: var(--text);
       overflow-x: hidden;
@@ -87,7 +87,7 @@
       min-height: 100vh;
       display: flex;
       align-items: center;
-      padding: 8rem 3rem 4rem;
+      padding: 9rem 3rem 16rem;
       overflow: hidden;
     }
 
@@ -131,7 +131,7 @@
       color: var(--accent);
       letter-spacing: 0.2em;
       text-transform: uppercase;
-      margin-bottom: 1.5rem;
+      margin-bottom: 2rem;
       display: flex;
       align-items: center;
       gap: 0.8rem;
@@ -148,17 +148,17 @@
       font-weight: 800;
       line-height: 0.95;
       letter-spacing: -0.02em;
-      margin-bottom: 1.5rem;
+      margin-bottom: 2rem;
     }
 
     h1 span { color: var(--accent); }
 
     .hero-sub {
-      font-size: 1.1rem;
+      font-size: 1.15rem;
       color: var(--muted);
-      line-height: 1.6;
-      max-width: 520px;
-      margin-bottom: 2.5rem;
+      line-height: 1.75;
+      max-width: 560px;
+      margin-bottom: 3rem;
     }
 
     .hero-cta {
@@ -206,25 +206,27 @@
     /* Stats strip */
     .stats-strip {
       position: absolute;
-      bottom: 3rem; left: 3rem; right: 3rem;
+      bottom: 4rem; left: 3rem; right: 3rem;
       display: flex;
       gap: 3rem;
       z-index: 1;
       border-top: 1px solid var(--border);
-      padding-top: 2rem;
+      padding-top: 2.5rem;
     }
 
     .stat-item .num {
-      font-size: 2rem;
+      font-size: 2.2rem;
       font-weight: 800;
       color: var(--accent);
       display: block;
+      line-height: 1;
+      margin-bottom: 0.4rem;
     }
 
     .stat-item .label {
       font-size: 0.75rem;
       color: var(--muted);
-      letter-spacing: 0.1em;
+      letter-spacing: 0.08em;
       text-transform: uppercase;
     }
 
@@ -590,11 +592,11 @@
     @media (max-width: 768px) {
       nav { padding: 1rem 1.5rem; }
       .nav-links { display: none; }
-      header { padding: 7rem 1.5rem 10rem; }
+      header { padding: 7rem 1.5rem 14rem; }
       section { padding: 4rem 1.5rem; }
       .about-grid { grid-template-columns: 1fr; gap: 2rem; }
       .contact-inner { grid-template-columns: 1fr; gap: 2rem; }
-      .stats-strip { flex-wrap: wrap; gap: 1.5rem; left: 1.5rem; right: 1.5rem; }
+      .stats-strip { flex-wrap: wrap; gap: 1.5rem; left: 1.5rem; right: 1.5rem; bottom: 2rem; }
       footer { flex-direction: column; gap: 0.5rem; text-align: center; }
     }
 
@@ -624,6 +626,7 @@
       <li><a href="#about">About</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#projects">Projects</a></li>
+      <li><a href="#learning-log">Learning Log</a></li>
       <li><a href="#certs">Certs</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
@@ -635,42 +638,30 @@
       <div class="hero-tag">Based in Madrid, Spain · Open to Europe</div>
       <h1>Patricia<br/><span>García</span></h1>
       <p class="hero-sub">
-        Petroleum Engineer turned Data Analyst. I build AI-powered solutions for the energy sector — combining 11+ years of field experience in Oil &amp; Gas with modern data engineering and machine learning.
+        Petroleum Engineer turned Data Analyst. I build AI-powered solutions for the energy sector — combining 6+ years of field experience in Oil &amp; Gas with modern data engineering and machine learning.
       </p>
       <div class="hero-cta">
-        
         <a href="docs/Patricia_Garcia_CV.pdf" target="_blank" class="btn-primary">📄 Download CV</a>
-        
         <a href="#projects" class="btn-outline">View Projects →</a>
-        
         <a href="blog/index.html" class="btn-outline">📖 Learning Log</a>
-        
       </div>
     </div>
     <div class="stats-strip">
       <div class="stat-item">
         <span class="num">6+</span>
-        
         <span class="label">Years in Oil & Gas</span>
-        
       </div>
       <div class="stat-item">
         <span class="num">3</span>
-        
         <span class="label">Major Ecuador Fields</span>
-        
       </div>
       <div class="stat-item">
         <span class="num">AWS</span>
-        
         <span class="label">Cloud Practitioner</span>
-        
       </div>
       <div class="stat-item">
         <span class="num">MSc</span>
-        
         <span class="label">Data Analyst & Science</span>
-        
       </div>
     </div>
   </header>
@@ -683,7 +674,7 @@
     <h2>From the drill floor<br/>to the data pipeline</h2>
     <div class="about-grid">
       <div class="about-text">
-        <p>I'm a <strong>Petroleum Engineer with years of hands-on experience</strong> in Ecuador's most productive oil fields — Sacha, Villano, and Shushufindi. I've worked across drilling, production optimization, and reservoir analysis with companies like Schlumberger and Halliburton.</p>
+        <p>I'm a <strong>Petroleum Engineer with 11+ years of hands-on experience</strong> in Ecuador's most productive oil fields — Sacha, Libertador, and Shushufindi. I've worked across drilling, production optimization, and reservoir analysis with companies like Schlumberger and Halliburton.</p>
         <p>Now based in <strong>Madrid</strong>, I'm combining that deep domain expertise with a <strong>Master's in Data Science</strong>, AWS Cloud certification, and a growing specialization in AI agents and energy analytics for the European market.</p>
         <p>My edge: I understand both what happens <strong>downhole</strong> and how to build the <strong>data systems</strong> that make sense of it.</p>
       </div>
@@ -843,7 +834,7 @@
         <span class="project-link">↗</span>
         <div class="project-type">● Data Engineering · SQL</div>
         <h3>SQL Portfolio</h3>
-        <p>Comprehensive SQL exercises, subqueries, window functions, and analytical queries on retail and employee datasets. Foundation for energy database work.</p>
+        <p>Comprehensive SQL exercises covering complex joins, subqueries, window functions, and analytical queries on retail and employee datasets. Foundation for energy database work.</p>
         <div class="project-tech">
           <span class="tech-badge">SQL</span>
           <span class="tech-badge">PostgreSQL</span>
@@ -868,10 +859,69 @@
 
   <div class="divider"></div>
 
+  <!-- LEARNING LOG -->
+  <section id="learning-log" style="background: var(--bg2); max-width:100%; padding: 6rem 0;">
+    <div style="max-width:1100px; margin:0 auto; padding: 0 3rem;">
+      <div class="section-label">04 — Learning Log</div>
+      <h2>Learning in public</h2>
+      <p style="color: var(--muted); font-size: 1rem; line-height: 1.75; max-width: 600px; margin-bottom: 3rem;">
+        Documenting my journey building AI agents and data pipelines for the energy sector.
+        From LangChain fundamentals to production-ready tools for Oil &amp; Gas — every week a new post.
+      </p>
+
+      <!-- LOG ENTRIES — añade más cards aquí a medida que publiques -->
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-bottom: 2.5rem;">
+
+        <!-- CARD: Próximo post -->
+        <div style="background: var(--card); border: 1px dashed rgba(0,212,255,0.2); border-radius: 10px; padding: 2rem; opacity: 0.55;">
+          <div style="font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.8rem;">● Coming Soon · LangChain</div>
+          <h3 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 0.6rem; line-height: 1.3;">LangChain: qué es y por qué importa en Oil &amp; Gas</h3>
+          <p style="font-size: 0.82rem; color: var(--muted); line-height: 1.6;">Primeros pasos con LangChain — chains, prompt templates y cómo conectar con datos de producción de pozos.</p>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 1rem;">
+            <span style="font-family: 'Space Mono', monospace; font-size: 0.62rem; padding: 0.2rem 0.5rem; border-radius: 2px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); color: var(--muted);">Python</span>
+            <span style="font-family: 'Space Mono', monospace; font-size: 0.62rem; padding: 0.2rem 0.5rem; border-radius: 2px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); color: var(--muted);">LangChain</span>
+            <span style="font-family: 'Space Mono', monospace; font-size: 0.62rem; padding: 0.2rem 0.5rem; border-radius: 2px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); color: var(--muted);">LLM</span>
+          </div>
+        </div>
+
+        <!-- CARD: Próximo post 2 -->
+        <div style="background: var(--card); border: 1px dashed rgba(0,212,255,0.2); border-radius: 10px; padding: 2rem; opacity: 0.55;">
+          <div style="font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase; color: #ff6b00; margin-bottom: 0.8rem;">● Coming Soon · AI Agents</div>
+          <h3 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 0.6rem; line-height: 1.3;">Ollama en local: LLMs sin enviar datos a la nube</h3>
+          <p style="font-size: 0.82rem; color: var(--muted); line-height: 1.6;">Por qué los datos de pozos NO deben salir a internet y cómo usar modelos locales con Ollama para análisis confidencial.</p>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 1rem;">
+            <span style="font-family: 'Space Mono', monospace; font-size: 0.62rem; padding: 0.2rem 0.5rem; border-radius: 2px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); color: var(--muted);">Ollama</span>
+            <span style="font-family: 'Space Mono', monospace; font-size: 0.62rem; padding: 0.2rem 0.5rem; border-radius: 2px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); color: var(--muted);">Local LLM</span>
+            <span style="font-family: 'Space Mono', monospace; font-size: 0.62rem; padding: 0.2rem 0.5rem; border-radius: 2px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); color: var(--muted);">Energy Data</span>
+          </div>
+        </div>
+
+        <!-- CARD: Próximo post 3 -->
+        <div style="background: var(--card); border: 1px dashed rgba(0,212,255,0.2); border-radius: 10px; padding: 2rem; opacity: 0.55;">
+          <div style="font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase; color: #00ff9d; margin-bottom: 0.8rem;">● Coming Soon · MCP</div>
+          <h3 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 0.6rem; line-height: 1.3;">MCP: conectando agentes con APIs de energía europea</h3>
+          <p style="font-size: 0.82rem; color: var(--muted); line-height: 1.6;">Model Context Protocol para conectar agentes de IA con ENTSO-E, Eurostat y otras fuentes de datos del sector energético europeo.</p>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 1rem;">
+            <span style="font-family: 'Space Mono', monospace; font-size: 0.62rem; padding: 0.2rem 0.5rem; border-radius: 2px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); color: var(--muted);">MCP</span>
+            <span style="font-family: 'Space Mono', monospace; font-size: 0.62rem; padding: 0.2rem 0.5rem; border-radius: 2px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); color: var(--muted);">ENTSO-E</span>
+            <span style="font-family: 'Space Mono', monospace; font-size: 0.62rem; padding: 0.2rem 0.5rem; border-radius: 2px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); color: var(--muted);">Agents</span>
+          </div>
+        </div>
+
+      </div>
+
+      <a href="blog/index.html" class="btn-primary" style="display: inline-flex; align-items: center; gap: 0.5rem;">
+        📖 Ver todos los posts →
+      </a>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
   <!-- CERTIFICATIONS -->
   <section id="certs" class="certs-section" style="max-width:100%; padding: 6rem 0;">
     <div style="max-width:1100px; margin:0 auto; padding: 0 3rem;">
-      <div class="section-label">04 — Certifications</div>
+      <div class="section-label">05 — Certifications</div>
       <h2>Credentials</h2>
       <div class="certs-grid">
         <div class="cert-card">
@@ -916,17 +966,17 @@
   <section id="contact">
     <div class="contact-inner">
       <div class="contact-text">
-        <div class="section-label">05 — Contact</div>
+        <div class="section-label">06 — Contact</div>
         <h2>Let's build something in energy</h2>
         <p>I'm actively looking for Data Engineer / Data Analyst roles in Europe's energy sector. Open to full-time positions, consulting, or research collaborations that combine petroleum expertise with data science.</p>
         <a href="docs/Patricia_Garcia_CV.pdf" target="_blank" class="btn-primary">📄 Download CV</a>
       </div>
       <div class="contact-links">
-        <a href="mailto:lpgguzman.coders23@gmail.com" class="contact-link">
+        <a href="/cdn-cgi/l/email-protection#82eef2e5e5f7f8efe3ecace1ede6e7f0f1b0b1c2e5efe3ebeeace1edef" class="contact-link">
           <span class="link-icon">✉️</span>
           <div class="link-info">
             <h4>Email</h4>
-            <p>lpgguzman.coders23@gmail.com</p>
+            <p><span class="__cf_email__" data-cfemail="aac6dacdcddfd0c7cbc484c9c5cecfd8d99899eacdc7cbc3c684c9c5c7">[email&#160;protected]</span></p>
           </div>
           <span class="arrow">→</span>
         </a>
@@ -959,10 +1009,4 @@
   </section>
 
   <footer>
-    <span>© 2025 Patricia García</span>
-    <span>Madrid, Spain · <span>Open to Europe</span></span>
-    <span>Petroleum Engineer · Data Analyst</span>
-  </footer>
-
-</body>
-</html>
+    <span>© 2025 Patricia García
