@@ -10,7 +10,7 @@
 ## 👩‍💻 About
 
 Petroleum Engineer with 6+ years of field experience in Ecuador's oil fields (Sacha, Villano, Shushufindi, Pañacocha) transitioning into Data Science and AI Engineering.  
-Currently building AI-powered solutions for the European energy sector — combining domain expertise in Oil & Gas with modern data pipelines, machine learning and AI agents.
+Currently building AI-powered solutions for the European energy sector combining domain expertise in Oil & Gas with modern data pipelines, machine learning and AI agents.
 
 ---
 
@@ -133,4 +133,4 @@ cd Patricoders23.github.io
 
 ---
 
-*© 2025 Patricia García · Madrid, Spain*
+*© 2025 Patricia García ·  Spain*
